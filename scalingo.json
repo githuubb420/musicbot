@@ -38,7 +38,7 @@
         "MONGO_DB_URL": {
             "description": "fill there mongo Database url else don't change",
             "required": true,
-            "value": "mongodb://musiccbott:musiccbott@12@8add7f6e-12d9-4bb0-86a4-fb23c295e204.musicboott-7543.mongo.a.osc-fr1.scalingo-dbs.com:30324/musicboott-7543?replicaSet=musicboott-7543-rs0&ssl=true"
+            "value": "mongodb://musiccbot:musiccbot@12@a96c09c3-260d-44ea-8f73-4a8bfde7e180.musicbottry-7719.mongo.a.osc-fr1.scalingo-dbs.com:30523/musicbottry-7719?replicaSet=musicbottry-7719-rs0&ssl=true"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
