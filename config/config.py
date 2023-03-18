@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "2992000"))
+API_HASH = getenv("235b12e862d71234ea222082052822fd")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("5780148364:AAG76KjJtPoa91yxxvvmjujDutJYnrgh8S8")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://musiccbot:musiccbot@12@a96c09c3-260d-44ea-8f73-4a8bfde7e180.musicbottry-7719.mongo.a.osc-fr1.scalingo-dbs.com:30523/musicbottry-7719?replicaSet=musicbottry-7719-rs0&ssl=true")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,10 +37,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001697156776"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("Samx Music")
 
 # Your User ID.
 OWNER_ID = list(
@@ -65,14 +65,14 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "chatting_indian_group"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "chatting_indian_group"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAB52-VbE2l3oPuc0bMZSe_QDAKnHHnf9dmxpcYvGvWlk6SZo5G6su-AXlV0ZBYZC4o1e_4Y9x5aEiioO81sblbOM2dKXDkq66udHwrB31WQpS1SSUeYzcT8mBB0uWDpOa2PvAX8wwJcAN_8dTZuAh_aRGtFNInDhnekjmAm_v1tnualhYEUPVQ0dcuaLt6XL9IBTfgO-wP2R5DT_CzdCHDKjDG5UGXXIKVL39m_GD5LXItxPGejt6bmsn9y_1vCM40fA-0nzNv1TtmMNktkScCELfVTmY1vhixx9W8h0iLK1_0bTx0LueNbEWsQoTztG2Ek_r7ScmLD21Ag6IP23JDNAAAAAVbSYroA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
